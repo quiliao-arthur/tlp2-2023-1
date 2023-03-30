@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+ <head>
+  <meta charset="UTF-8">
+  <title>SiG Cabeludo</title>
+  <link rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.min.css}">
+  <script th:src="@{/jquery/jquery-3.6.4.js}"></script>
+  <script th:src="@{/bootstrap/js/bootstrap.min.js}"></script>
+ </head>
+ <body>
+  <div class="container">
+   <div class="row">
+    <div class="col">
+     <h2 th:text="${msgBoasVindas}"></h2>
+     <a class="btn btn-primary" href="/cadastro-usuario">Cadastre-se</a>
+     <a class="btn btn-primary" href="/cadastro-cabelo">Registrar Produto</a>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
